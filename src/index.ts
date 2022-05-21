@@ -14,7 +14,7 @@ for (i = 0; i < 6; i++) {
 }
 let vSuma: number[] = [];
 for (i = 0; i < 6; i++) {
-  vSuma.push(v1[i] + v2[i]);
+  vSuma[i] = v1[i] + v2[i];
 }
 console.log("Los numeros del primer arreglo son: " + v1);
 console.log("Los numeros del segundo arreglo son: " + v2);
