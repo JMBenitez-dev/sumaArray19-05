@@ -19,3 +19,4 @@ for (i = 0; i < 6; i++) {
 console.log("Los numeros del primer arreglo son: " + v1);
 console.log("Los numeros del segundo arreglo son: " + v2);
 console.log("La suma de cada elemento del arreglo son " + vSuma);
+// Esta muy bien resuelto
