@@ -1,7 +1,7 @@
 let v1: number[] = new Array(6);
 let valor1: number, i: number;
 
-for (i = 0; i < 6; i++) {
+for (i = 0; i < 6; i++) {// lo ideal seria usar v1.length ya que si necesitas cambiar la cantidad de elementos solo cambias en la primer asignacion y no en el resto del codigo.
   valor1 = Number(prompt("Ingrese valor " + (i + 1) + " del primer arreglo"));
   v1[i] = valor1;
 }
@@ -19,3 +19,4 @@ for (i = 0; i < 6; i++) {
 console.log("Los numeros del primer arreglo son: " + v1);
 console.log("Los numeros del segundo arreglo son: " + v2);
 console.log("La suma de cada elemento del arreglo son " + vSuma);
+//Está muy bien tu solucion
